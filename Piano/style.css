@@ -1,0 +1,97 @@
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   margin-top: 25%;
+ 
+ width: max-content;
+margin-left: 25%;
+
+}
+
+.container{
+    background-color: rgb(13, 76, 2) ;
+  
+    position: relative;
+    color: white;
+     border-radius: 8px;
+
+}
+.container h1{
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container .white{
+    background-color: white;
+    border: 2px solid black;
+    width: 10px;
+    height: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius: 5px;;
+  
+}
+.black{ 
+   position: relative;
+     z-index: 20;
+      width: 20px;
+      height: 70px;
+      background-color: black;
+      display: flex;
+       margin-left: 12px;
+      
+}
+
+.whiteP{
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.first{
+   padding-left: 20px;
+}
+
+.last{
+    padding-right: 20px;
+}
+
+.sa:hover{
+    background-color: red; 
+    
+}
+.re:hover{
+   background-color: aquamarine;
+}
+.ga:hover{
+   background-color: blueviolet;
+}
+ .ma:hover{
+     background-color: blue;
+ }
+ .pa:hover{
+    background-color: yellowgreen;
+ }
+ .da:hover{
+    background-color: orangered;
+ }
+
+ .ne:hover{
+    background-color: greenyellow;
+ }
+ 
+.white{
+    cursor :pointer;
+}
